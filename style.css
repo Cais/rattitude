@@ -1,0 +1,275 @@
+/*
+	Theme Name: Rattitude Three Rats
+	Theme URI: http://Rattitude.com/
+	Description: The Original Dancing Rats theme of www.Rattitude.com
+	Version: 1.2.2.20080730
+	Author: JellyBeen
+	Author URI: http://www.BuyNowShop.com.com/
+	Tags: ...
+
+This theme was designed and built by JellyBeen,
+with modified CSS from the original Kubrick WP Template
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+body{
+	font-size: 1em;
+	font-family: "Lucida Bright", "Times New Roman", Times, serif;
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	background: silver url('images/rat_symbol.gif') no-repeat fixed center;
+}
+
+#headerimg .description {
+	font-size: 1.5em;
+	font-style: italic;
+	color: #191970;
+	text-align: center;
+}
+
+h1{
+	font-size: 250%;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2{
+	font-size: 175%;
+	font-weight: normal;
+}
+
+h3{
+	font-size: 112%;
+	border-bottom: thin solid black;
+}
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+
+.entry blockquote{ /* Post Quote style */
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	font-style: italic;
+}
+
+.entry blockquote cite { /* Post Quote style */
+	margin: 5px 0 0;
+	display: block;
+}
+
+.entry p img{
+	padding: 10px;
+}
+
+p{
+	font-size: 120%;
+}
+
+li{
+	padding-right: 10px;
+	margin-left: -20px;
+	text-align: left;
+}
+
+/* start Sidebar menus */
+li h2{
+	margin-top: 10px;
+	margin-bottom: -3px;
+	font-size: 175%;
+}
+
+ul li ul li{
+	margin-top: 1px;
+	font-size: 1em;
+}
+/* end Sidebar menus */
+
+a:link{
+	text-decoration: none;
+	color: #191970;
+	background-color: inherit;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #19456F;
+	background-color: inherit;
+}
+
+a:hover{
+	border: #2F4F4F;
+	color: white;
+	background: #196F43;
+}
+
+img{
+	border: none;
+}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.alignright{
+	float: right;
+}
+
+.alignleft{
+	float: left;
+}
+
+img.big_image{
+	width: 99%;
+}
+
+/* Classes */
+.center{
+	text-align: center;
+}
+.vertical_center{
+	text-align: center;
+	vertical-align: middle;
+}
+.trail{
+	border-left: thin solid #006400;
+	border-bottom: thin solid #006400;
+	padding-left: 10px;
+}
+.main_body{
+	margin-left: 220px;
+	margin-right: 10px;
+}
+
+.main_body_wide{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.left{
+	float: left;
+	width: 200px;
+}
+
+.MainMenu{
+	border-top: thin solid #006400;
+	border-right: thin solid #006400;
+}
+
+.postmetadata{
+	font-style: italic;
+}
+
+.Google_Adsense{
+	border-top: thin solid #006400;
+	border-right: thin solid #006400;
+	text-align: justify;
+}
+
+.wp_links{
+	font-size: 80%;
+}
+
+.articles{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 110%;
+}
+
+.author{
+	font-size: 80%;
+}
+
+p.citation{
+	font-size:  85%;
+	font-style: italic;
+}
+
+.mail{
+	font-size: 50%;
+}
+
+.mem_pix{
+	float: right;
+	margin: 12px;
+}
+
+.gallery_text{
+	font-size: 120%;
+	text-align: justify;
+}
+
+.tiny_type{
+	font-size: x-small;
+	font-style: italic;
+}
+
+/* IDs */
+#top_of_page{
+	text-align: center;
+}
+#signature{
+	font-size: 130%;
+	font-style: italic;
+}
+#first_word{
+	text-transform: uppercase;
+	font-size: 112%;
+}
+#art_start{
+	text-transform: uppercase;
+}
+#navbar{
+	clear: both;
+	border-top: thin solid #006400;
+	border-bottom: thin solid #006400;
+	font-size: 100%;
+}
+.footer{
+	text-align: center;
+	font-size: 80%;
+	font-weight: lighter;
+}
+
+/*
+.jbLogo{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 5;
+	width: auto;
+	height: auto;
+}
+
+.jbLogo img{
+	border: none;
+}
+
+a.jbLogo{
+  background:transparent;
+}
+*/
+
+#menu_title{
+	text-align: justify;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+/* Specials */
+
+#home .home, #downloads .downloads, #contact .contact, #rainbow .rainbow,
+#gallery .gallery, #articles_link .articles_link, #rescues .rescues{
+	font-style: italic;
+	font-weight: bold;
+}
