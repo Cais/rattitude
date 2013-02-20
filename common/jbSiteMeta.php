@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta http-equiv="Reply-to" content="Mr.Rattitude@gmail.com" />
 
-<?php
+<?php /**
   switch($page_title){
     
     case "home":
@@ -24,7 +24,7 @@
 <meta name="Keyphrases" content="Pet Rats, Pet Rat, Rats as Pets" />
     <?php
   }
-?>
+*/ ?>
 
 <meta name="creation-date" content="October 2005" /> 
 <meta name="copyright" content="&copy; 2006-2007 www.Rattitude.com" />

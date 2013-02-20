@@ -3,7 +3,9 @@
     <div class="footer">
 
         <!-- Navigation Bar -->
-        <?php // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbNavBar.php'); ?>
+        <?php
+        // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbNavBar.php');
+        get_template_part( 'common/jbNavBar' ); ?>
 
         <!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
 
@@ -16,14 +18,19 @@
         </p>
 
         <!-- Page footer - copyright, etc. -->
-        <?php // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbFooter.php'); ?>
+        <?php // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbFooter.php');
+        get_template_part( 'common/jbFooter' ); ?>
 
         <!-- Acknowledgements, Awards, Certifications -->
-        <?php // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbNotation.php'); ?>
+        <?php
+        // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbNotation.php');
+        get_template_part( 'common/jbNotation' ); ?>
 
     </div>
 
-    <?php include(TEMPLATEPATH . '/jbLogo.php'); ?> <!-- Designer Mark -->
+    <?php
+    // include( TEMPLATEPATH . '/jbLogo.php' );
+    get_template_part( 'jbLogo' ); ?> <!-- Designer Mark -->
 
     <?php wp_footer(); ?>
 

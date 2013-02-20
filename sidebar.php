@@ -7,7 +7,11 @@
             /* Widgetized sidebar, if you have the plugin installed. */
             if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 
-                <li><?php include (TEMPLATEPATH . '/searchform.php'); ?></li>
+                <li>
+                    <?php
+                    // include (TEMPLATEPATH . '/searchform.php');
+                    get_search_form(); ?>
+                </li>
                 <!-- Author information is disabled per default. Uncomment and fill in your details if you want to use it.
                 <li><h2>Author</h2>
                     <p>A little something about you, the author. Nothing lengthy, just an overview.</p>
@@ -24,13 +28,17 @@
                     </ul>
                     -->
 
-                    <?php /*add Ajax_Calendar */ ajax_calendar(); ?>
+                    <?php
+                    /*add Ajax_Calendar */
+                    // ajax_calendar(); ?>
 
                 </li>
 
                 <?php wp_list_categories('show_count=1&title_li=<h2>Bruxisms</h2>'); ?>
 
-                <?php /* If this is the frontpage */ if ( is_home() || is_page() ) { ?>
+                <?php
+                /* If this is the frontpage */
+                if ( is_home() || is_page() ) { ?>
                     <?php wp_list_bookmarks('category=10'); ?>
 
                     <li><h2>Site Links</h2>
@@ -67,6 +75,7 @@
     -->
 
     <!-- Additional content - ad space / banners / etc. -->
-    <?php include('common/jbBanners.php'); ?>
+    <?php // include('common/jbBanners.php');
+    get_template_part( 'common/jbBanners' ); ?>
 
 </div>

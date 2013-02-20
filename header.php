@@ -5,7 +5,8 @@
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
     <!-- Tags and details for SEO -->
-    <?php // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbSiteMeta.php'); ?>
+    <?php // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbSiteMeta.php');
+    get_template_part( 'common/jbSiteMeta' ); ?>
 
     <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
 
@@ -22,7 +23,9 @@
     <div id="header">
 
         <!-- Page header banner, etc. -->
-        <?php // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbHeader.php'); ?>
+        <?php
+        // include(WP_CONTENT_DIR . '/themes/3rats/' . 'common/jbHeader.php');
+        get_template_part( 'common/jbHeader' ); ?>
 
         <div id="headerimg">
             <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>

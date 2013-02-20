@@ -3,6 +3,7 @@
 ?>
 
 <div id="top_of_page">
-  <img alt="Welcome to Rattitude - Where Rats Rule!" src="http://www.rattitude.com/images/Rattitude.gif" width="425" height="160" />
+    <!-- <img alt="Welcome to Rattitude - Where Rats Rule!" src="http://www.rattitude.com/images/Rattitude.gif" width="425" height="160" /> -->
+    <img alt="Welcome to Rattitude - Where Rats Rule!" src="<?php echo get_template_directory_uri(); ?>/images/Rattitude.gif" width="425" height="160" />
 </div>
 

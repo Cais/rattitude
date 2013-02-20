@@ -27,6 +27,7 @@
 
 <div class="jbLogo">
  <a href="http://www.BuyNowShop.com/">
-   <img alt="Design by JellyBeen" src="http://www.buynowshop.com/images/DbJB.png" />
+     <!-- <img alt="Design by JellyBeen" src="http://www.buynowshop.com/images/DbJB.png" /> -->
+     <img alt="Design by JellyBeen" src="http://buynowshop.com/images/dbjb0810b-128.png" />
  </a>
 </div>
